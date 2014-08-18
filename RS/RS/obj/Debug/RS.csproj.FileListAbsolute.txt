@@ -1,0 +1,15 @@
+c:\users\lily\documents\visual studio 2012\Projects\RS\RS\bin\Debug\RS.dll
+c:\users\lily\documents\visual studio 2012\Projects\RS\RS\bin\Debug\RS.pdb
+c:\users\lily\documents\visual studio 2012\Projects\RS\RS\obj\Debug\RS.csprojResolveAssemblyReference.cache
+c:\users\lily\documents\visual studio 2012\Projects\RS\RS\obj\Debug\RS.dll
+c:\users\lily\documents\visual studio 2012\Projects\RS\RS\obj\Debug\RS.pdb
+C:\Users\Lily\Documents\GitHub\vanish-x-zone\RS\RS\obj\Debug\RS.csprojResolveAssemblyReference.cache
+C:\Users\Lily\Documents\GitHub\vanish-x-zone\RS\RS\obj\Debug\RS.dll
+C:\Users\Lily\Documents\GitHub\vanish-x-zone\RS\RS\obj\Debug\RS.pdb
+C:\Users\Lily\Documents\GitHub\vanish-x-zone\RS\RS\bin\Debug\RS.dll
+C:\Users\Lily\Documents\GitHub\vanish-x-zone\RS\RS\bin\Debug\RS.pdb
+C:\Users\Lily\Documents\GitHub\RS\RS\RS\bin\Debug\RS.dll
+C:\Users\Lily\Documents\GitHub\RS\RS\RS\bin\Debug\RS.pdb
+C:\Users\Lily\Documents\GitHub\RS\RS\RS\obj\Debug\RS.csprojResolveAssemblyReference.cache
+C:\Users\Lily\Documents\GitHub\RS\RS\RS\obj\Debug\RS.dll
+C:\Users\Lily\Documents\GitHub\RS\RS\RS\obj\Debug\RS.pdb
