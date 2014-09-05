@@ -12,13 +12,13 @@ RS is a work in progress. I created this class library with the intention of com
 This namespace contains implementations of the Sytem.Data.SqlClient namespace that facilitate retrieval and modification of data from SQL databases. This namespace accomidates selecting to custom data entities for easy integration into existing solutions. Sample code is as follows:
 
 Instantiating a Database object (connection strings vary, of course):
-```
+```csharp
 Database db = new Database("Server=myServerAddress;Database=myDataBase;Trusted_Connection=True;");
 ```
 
 Executing a NonQuery (supports List<SqlParameter> and Timeout arguments):
 
-```
+```csharp
 string query = "DELETE * FROM MyDatabase.dbo.Users";
 
 int rowsAffected = db.NonQuery(query);
@@ -26,7 +26,7 @@ int rowsAffected = db.NonQuery(query);
 
 Selecting to a DataTable / Dataset (supports List<SqlParameter> and Timeout arguments):
 
-```
+```csharp
 string query = "SELECT * FROM MyDatabase.dbo.Users";
 
 DataTable DT = db.QueryDT(query);
@@ -36,7 +36,7 @@ DataSet DS = db.QueryDS(query);
 
 Selecting to a custom data entity:
 
-```
+```csharp
 [SQLTable("[MyDatabase].[dbo].[Users]")]
 public class User
 {
