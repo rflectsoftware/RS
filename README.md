@@ -37,7 +37,7 @@ DataSet DS = db.QueryDS(query);
 Selecting to a custom data entity:
 
 ```csharp
-[SQLTable("[MyDatabase].[dbo].[Users]")]
+[SQLTable("MyDatabase.dbo.Users")]
 public class User
 {
   [SqlKeyField(true)]
