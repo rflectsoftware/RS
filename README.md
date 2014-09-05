@@ -3,7 +3,7 @@ RS
 
 Collectiion of useful development utilities
 
-(Updated: 2014-08-18)
+(Updated: 2014-09-04)
 
 RS is a work in progress. I created this class library with the intention of compiling methods and classes I frequently use into a single location. Highlights include:
 
