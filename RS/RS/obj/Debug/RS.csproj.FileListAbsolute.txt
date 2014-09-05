@@ -10,6 +10,16 @@ C:\Users\Lily\Documents\GitHub\vanish-x-zone\RS\RS\bin\Debug\RS.dll
 C:\Users\Lily\Documents\GitHub\vanish-x-zone\RS\RS\bin\Debug\RS.pdb
 C:\Users\Lily\Documents\GitHub\RS\RS\RS\bin\Debug\RS.dll
 C:\Users\Lily\Documents\GitHub\RS\RS\RS\bin\Debug\RS.pdb
-C:\Users\Lily\Documents\GitHub\RS\RS\RS\obj\Debug\RS.csprojResolveAssemblyReference.cache
 C:\Users\Lily\Documents\GitHub\RS\RS\RS\obj\Debug\RS.dll
 C:\Users\Lily\Documents\GitHub\RS\RS\RS\obj\Debug\RS.pdb
+C:\Users\Lily\Desktop\RS - No SQL Link Fork\RS\RS\obj\Debug\RS.csprojResolveAssemblyReference.cache
+C:\Users\Lily\Desktop\RS - No SQL Link Fork\RS\RS\obj\Debug\RS.dll
+C:\Users\Lily\Desktop\RS - No SQL Link Fork\RS\RS\obj\Debug\RS.pdb
+C:\Users\Lily\Desktop\RS - No SQL Link Fork\RS\RS\bin\Debug\RS.dll
+C:\Users\Lily\Desktop\RS - No SQL Link Fork\RS\RS\bin\Debug\RS.pdb
+W:\RS - No SQL Link Fork\RS\RS\bin\Debug\RS.dll
+W:\RS - No SQL Link Fork\RS\RS\bin\Debug\RS.pdb
+W:\RS - No SQL Link Fork\RS\RS\obj\Debug\RS.csprojResolveAssemblyReference.cache
+W:\RS - No SQL Link Fork\RS\RS\obj\Debug\RS.dll
+W:\RS - No SQL Link Fork\RS\RS\obj\Debug\RS.pdb
+C:\Users\Lily\Documents\GitHub\RS\RS\RS\obj\Debug\RS.csprojResolveAssemblyReference.cache
