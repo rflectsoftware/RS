@@ -68,7 +68,6 @@ namespace RS.SQL
             BulkUpdate
         }
 
-
         public DataTable QueryDT(string Query, List<SqlParameter> Parameters = null, int Timeout = 1000)
         {
             return ExecuteSQL<DataTable>(SQLQueryType.DT, Query, Parameters, Timeout);
@@ -84,13 +83,33 @@ namespace RS.SQL
             return ExecuteSQL<T>(SQLQueryType.Scalar, Query, Parameters, Timeout);
         }
 
+        public List<T> ScalarListQuery<T>(string Query, List<SqlParameter> Parameters = null, int Timeout = 1000)
+        {
+            DataTable DT = ExecuteSQL<DataTable>(SQLQueryType.DT, Query, Parameters, Timeout);
+
+            List<T> myResult = new List<T>();
+
+            foreach (DataRow row in DT.Rows)
+            {
+                try
+                {
+                    //Attempt to cast the current value as T
+                    myResult.Add((T)Convert.ChangeType(row[0], typeof(T)));
+                }
+                catch(InvalidCastException)
+                {
+                    //If the cast fails, throw an exception
+                    throw new Exception("The value \"" + row[0].ToString() + "\" cannot be cast as type \"" + typeof(T).ToString() + "\"");
+                }
+            }
+
+            return myResult;
+        }
+
         public int NonQuery(string Query, List<SqlParameter> Parameters = null, int Timeout = 1000)
         {
             return ExecuteSQL<int>(SQLQueryType.NonQuery, Query, Parameters, Timeout);
         }
-
-
-
 
         private T ExecuteSQL<T>(SQLQueryType QueryType, string Query, List<SqlParameter> Parameters = null, int Timeout = 1000)
         {
